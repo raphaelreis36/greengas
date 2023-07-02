@@ -1,34 +1,32 @@
-<form action="index.php" method="post" class="php-email-form">
-    <div class="row">
-        <div class="col-12">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" required>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
-        </div>
-    </div>
+<?php include_once BASE_PATH . '/src/services/email/send_email.php'; ?>
+
+<form action="/" method="post">     
     <div>
-        <div class="row">
-            <div class="col-12">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+        <input type="text" name="name" id="name" placeholder="Seu Nome" required />
+        <input type="email" name="email" id="email" placeholder="Seu Email" style="margin-top: 10px;" required />
+        <input type="text" name="subject" id="subject" placeholder="Assunto" style="margin-top: 10px;" required />
+        <textarea name="message" rows="5" placeholder="Mensagem" style="margin-top: 10px;" required></textarea>
+    </div>
+    
+    <?php if(isset($_POST['name'])): ?>
+        <?php if(!$error): ?>
+            <div class="row">
+                <div class="col-12" style="margin-top: 5px;">
+                    <div class="sent-message"><?php echo Email::SuccessMessage->value; ?></div>
+                </div>
             </div>
-        </div>
-    </div>
+        <?php else: ?>
+            <div class="row">
+                <div class="col-12" style="margin-top: 5px;">                
+                    <div class="error-message"><?php echo Email::ErrorMessage->value; ?></div>
+                </div>
+            </div>
+        <?php endif; ?>
+    <?php endif; ?>
+
     <div class="row">
-        <div class="col-12">
-            <div class="loading">Carregando</div>
-            <div class="error-message">Erro detectado!</div>
-            <div class="sent-message">Sua mensagem foi enviada com sucesso. Obrigado pelo contato!</div>
+        <div class="text-center" style="margin-top: 20px;">
+            <button type="submit">Enviar Mensagem</button>
         </div>
-    </div>
-    <div class="row">
-        <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
     </div>
 </form>
