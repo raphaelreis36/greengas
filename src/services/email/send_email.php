@@ -9,10 +9,10 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
     $mensagem = addslashes($_POST['message']);
 
     $phpVersion = phpversion();
-    $from = Email::From->value;
+    $from = Email::From;
 
-    $to = Email::To->value;
-    $subject = Email::Subject->value . "{$assunto}";
+    $to = Email::To;
+    $subject = Email::Subject . "{$assunto}";
     $body = "Nome: {$nome}\n
              E-mail: {$email}\n
              Mensagem: {$mensagem}";

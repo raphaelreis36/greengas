@@ -12,13 +12,13 @@
         <?php if(!$error): ?>
             <div class="row">
                 <div class="col-12" style="margin-top: 5px;">
-                    <div class="sent-message"><?php echo Email::SuccessMessage->value; ?></div>
+                    <div class="sent-message"><?php echo Email::SuccessMessage; ?></div>
                 </div>
             </div>
         <?php else: ?>
             <div class="row">
                 <div class="col-12" style="margin-top: 5px;">                
-                    <div class="error-message"><?php echo Email::ErrorMessage->value; ?></div>
+                    <div class="error-message"><?php echo Email::ErrorMessage; ?></div>
                 </div>
             </div>
         <?php endif; ?>
