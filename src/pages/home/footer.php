@@ -9,6 +9,7 @@
                     <p>
                     Não deixe a oportunidade passar! Entre em contato agora mesmo e descubra como podemos impulsionar o seu negócio com soluções inovadoras e vantagens exclusivas. Não perca tempo, estamos prontos para te ajudar a alcançar o sucesso!
                     </p>
+                    <?php include_once "footer/contact.php"; ?>
                 </section>
 
             </div>
