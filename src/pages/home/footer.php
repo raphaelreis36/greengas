@@ -5,13 +5,9 @@
 
                 <!-- About -->
                 <section>
-                    <h2 class="major"><span>What's this about?</span></h2>
+                    <h2 class="major"><span>QUEREMOS OUVIR VOCÊ!</span></h2>
                     <p>
-                        This is <strong>TXT</strong>, yet another free responsive site template designed by
-                        <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
-                        <a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
-                        whatever you're working on (personal or commercial), just be sure to give us credit for the design.
-                        That's basically it :)
+                    Não deixe a oportunidade passar! Entre em contato agora mesmo e descubra como podemos impulsionar o seu negócio com soluções inovadoras e vantagens exclusivas. Não perca tempo, estamos prontos para te ajudar a alcançar o sucesso!
                     </p>
                 </section>
 
@@ -20,7 +16,7 @@
 
                 <!-- Contact -->
                 <section>
-                    <h2 class="major"><span>Get in touch</span></h2>
+                    <h2 class="major"><span>Conecte-se conosco nas redes!</span></h2>
                     <ul class="contact">
                         <li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
                         <li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
@@ -36,8 +32,8 @@
         <!-- Copyright -->
         <div id="copyright">
             <ul class="menu">
-                <li>&copy; Untitled. All rights reserved</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>&copy; Greengas. Todos os direitos reservados.</li>
+                <li>Desenvolvido por: <a href="https://mktprod.com/">Mktprod.com</a></li>
             </ul>
         </div>
 

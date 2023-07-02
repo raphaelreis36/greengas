@@ -46,7 +46,7 @@
 
             <div class="col-12">
                 <ul class="actions">
-                    <li><a href="#" class="button large">Entenda mais sobre nossos Planos de Coleta!</a></li>
+                    <li><a href="#" class="button large">Saiba Mais Sobre Nosso Biofertilizante!</a></li>
                 </ul>
             </div>
         </div>

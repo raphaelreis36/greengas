@@ -7,7 +7,7 @@ $servicesIcons = [
 ];
 
 $productsIcons = [
-    "biodigestor" => "images/servicos/biodigestor.png",
-    "biofertilizante" => "images/servicos/biofertilizante.png",
-    "biocomposto" => "images/servicos/biocomposto.png",
+    "biodigestor" => "images/products/biodigestor.png",
+    "biofertilizante" => "images/products/biofertilizante.png",
+    "biocomposto" => "images/products/biocomposto.png",
 ];
