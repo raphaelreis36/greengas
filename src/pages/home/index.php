@@ -19,7 +19,7 @@
 			<?php include_once 'src/layout/nav.php'; ?>
 
 			<!-- Banner -->
-			<?php include_once 'src/layout/banner.php'; ?>
+			<?php include_once 'banner.php'; ?>
 
 			<!-- Main -->
 			<?php include_once 'main.php'; ?>

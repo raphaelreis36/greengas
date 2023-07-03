@@ -2,7 +2,7 @@
     <div class="logo container">
         <div>
             <h1><a href="/" id="logo">GreenGás</a></h1>
-            <p>Resíduos & Bioenergia</p>
+            <p>Sobre nós</p>
         </div>
     </div>
 </header>
