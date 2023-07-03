@@ -8,7 +8,7 @@ $currentPage = $pageTokens[count($pageTokens)-2];
         <li class="<?php echo $currentPage === '' ? 'current' : ''; ?>"><a href="/">Home</a></li>
         <li class="<?php echo $currentPage === 'sobre' ? 'current' : ''; ?>"><a href="/src/pages/sobre">Sobre Nós</a></li>
         <li class="<?php echo $currentPage === 'servicos' ? 'current' : ''; ?>"><a href="/src/pages/servicos">Produtos e Serviços</a></li>
-        <li class="<?php echo $currentPage === 'left-sidebar' ? 'current' : ''; ?>"><a href="left-sidebar.html">Blog</a></li>
+        <li class="<?php echo $currentPage === 'blog' ? 'current' : ''; ?>"><a href="/src/pages/blog">Blog</a></li>
         <li class="<?php echo $currentPage === 'contato' ? 'current' : ''; ?>"><a href="contato.html">Contato</a></li>
     </ul>
 </nav>
