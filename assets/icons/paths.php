@@ -19,13 +19,13 @@ $teamIcons = [
     "mario_quintaes" => "/images/equipe/mario_quintaes.jpg",
 ];
 
-$servicesIcons = [
+$servicesPageIcons = [
     "educacao_ambiental" => "/images/fig (1).jpeg",
     "residuos_urbanos" => "/images/fig (4).jpeg",
     "palestras_treinamentos" => "/images/fig (3).jpeg",
 ];
 
-$productsIcons = [
+$productsPageIcons = [
     "produto_1" => "/images/produto1.jpeg",
 ];
 

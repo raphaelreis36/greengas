@@ -15,7 +15,7 @@
                                 <li class="icon fa-comments"><a href="#">8</a></li>
                             </ul>
                         </header>
-                        <a href="#" class="image featured"><img src="<?php echo $productsIcons['produto_1']?>" alt="" height="400" /></a>
+                        <a href="#" class="image featured"><img src="<?php echo $productsPageIcons['produto_1']?>" alt="" height="400" /></a>
                         <p>
                             A GreenGásé agente de transformação ao propor soluções sustentáveis para o tratamento dos resíduos orgânicos e promoção da Economia Circular. A partir do tratamento dos resíduos produzimos biogás, biofertilizante e biocomposto.
                         </p>

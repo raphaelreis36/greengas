@@ -7,7 +7,7 @@
 
             <div class="col-4">
                 <section class="box feature">
-                    <a href="#" class="image featured"><img src="<?php echo $servicesIcons['educacao_ambiental']?>" alt="" /></a>
+                    <a href="#" class="image featured"><img src="<?php echo $servicesPageIcons['educacao_ambiental']?>" alt="" /></a>
                     <h3><a href="#">Educação Ambiental</a></h3>
                     <p>
                         Elaboração e implantação de projetos ambientais no âmbito da Economia Circular.
@@ -16,7 +16,7 @@
             </div>
             <div class="col-4">
                 <section class="box feature">
-                    <a href="#" class="image featured"><img src="<?php echo $servicesIcons['residuos_urbanos']?>" alt="" /></a>
+                    <a href="#" class="image featured"><img src="<?php echo $servicesPageIcons['residuos_urbanos']?>" alt="" /></a>
                     <h3><a href="#">Gestão integrada de resíduos orgânicos</a></h3>
                     <p>
                         Diagnósticos dos resíduos gerados.<br />
@@ -30,7 +30,7 @@
             </div>
             <div class="col-4">
                 <section class="box feature">
-                    <a href="#" class="image featured"><img src="<?php echo $servicesIcons['palestras_treinamentos']?>" alt="" /></a>
+                    <a href="#" class="image featured"><img src="<?php echo $servicesPageIcons['palestras_treinamentos']?>" alt="" /></a>
                     <h3><a href="#">Palestras e Treinamentos</a></h3>
                     <p>
                         Treinamentos para capacitação de equipes.
