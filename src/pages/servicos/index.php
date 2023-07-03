@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../../../assets/css/main.css" />
 	<link rel="stylesheet" href="../../../assets/css/contact.css" />
-
+	<link rel="icon" type="image/png" sizes="16x16" href="../../../images/favicon.png">
 </head>
 
 <body class="homepage is-preload">
