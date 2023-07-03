@@ -13,19 +13,19 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-			<?php include_once 'src/pages/home/header.php'; ?>
+			<?php include_once 'header.php'; ?>
 
 			<!-- Nav -->
-			<?php include_once 'src/pages/home/nav.php'; ?>
+			<?php include_once 'src/layout/nav.php'; ?>
 
 			<!-- Banner -->
-			<?php include_once 'src/pages/home/banner.php'; ?>
+			<?php include_once 'src/layout/banner.php'; ?>
 
 			<!-- Main -->
-			<?php include_once 'src/pages/home/main.php'; ?>
+			<?php include_once 'main.php'; ?>
 
 			<!-- Footer -->
-			<?php include_once 'src/pages/home/footer.php'; ?>
+			<?php include_once 'src/layout/footer.php'; ?>
 
 		</div>
 

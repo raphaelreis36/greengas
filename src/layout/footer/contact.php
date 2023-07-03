@@ -1,6 +1,10 @@
-<?php include_once BASE_PATH . '/src/services/email/send_email.php'; ?>
+<?php 
+    isset($site_path) ? 
+        include_once $site_path . '/src/services/email/send_email.php' : 
+        include_once '../../services/email/send_email.php'; 
+?>
 
-<form action="/" method="post">     
+<form action="/#contact" method="post">     
     <div>
         <input type="text" name="name" id="name" placeholder="Seu Nome" required />
         <input type="email" name="email" id="email" placeholder="Seu Email" style="margin-top: 10px;" required />

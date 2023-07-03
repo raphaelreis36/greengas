@@ -11,3 +11,21 @@ $productsIcons = [
     "biofertilizante" => "images/products/biofertilizante.png",
     "biocomposto" => "images/products/biocomposto.png",
 ];
+
+$teamIcons = [
+    "joao_victor" => "/images/equipe/joao_victor.jpg",
+    "aline_paranhos" => "/images/equipe/aline_paranhos.jpg",
+    "isabela_souza" => "/images/equipe/isabela_souza.jpg",
+    "mario_quintaes" => "/images/equipe/mario_quintaes.jpg",
+];
+
+$servicesIcons = [
+    "educacao_ambiental" => "/images/fig (1).jpeg",
+    "residuos_urbanos" => "/images/fig (4).jpeg",
+    "palestras_treinamentos" => "/images/fig (3).jpeg",
+];
+
+$productsIcons = [
+    "produto_1" => "/images/produto1.jpeg",
+];
+

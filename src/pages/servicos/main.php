@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row gtr-200">
             <div class="col-12">
-                <!-- ODS -->
+                <!-- Header -->
                 <?php include_once 'ods.php'; ?>
             </div>
 
@@ -18,3 +18,4 @@
         </div>
     </div>
 </section>
+

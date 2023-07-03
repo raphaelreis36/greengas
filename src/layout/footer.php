@@ -4,7 +4,7 @@
             <div class="col-12">
 
                 <!-- About -->
-                <section>
+                <section id="contact" >
                     <h2 class="major"><span>QUEREMOS OUVIR VOCÊ!</span></h2>
                     <p>
                     Não deixe a oportunidade passar! Entre em contato agora mesmo e descubra como podemos impulsionar o seu negócio com soluções inovadoras e vantagens exclusivas. Não perca tempo, estamos prontos para te ajudar a alcançar o sucesso!
