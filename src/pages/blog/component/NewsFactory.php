@@ -1,6 +1,6 @@
 <?php
 
-require 'Simple.php';
+require 'NewsSimple.php';
 
 class NewsFactory
 {

@@ -1,4 +1,5 @@
 <?php
+namespace FactoryMethod\Handler;
 
 class NewsSimple
 {

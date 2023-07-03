@@ -7,10 +7,28 @@ $newsFactory = new NewsFactory();
 $simpleNews = $newsFactory->create("Simple");
 
 echo $simpleNews->build(
-        $news1['title'], 
-        $news1['subtitle'], 
-        $news1['description'],
-        $news1['image'],
-        $news1['imageDescription'],
-        $news1['date']
-    );
+    $news1['title'],
+    $news1['subtitle'],
+    $news1['description'],
+    $news1['image'],
+    $news1['imageDescription'],
+    $news1['date']
+);
+
+echo $simpleNews->build(
+    $news1['title'],
+    $news1['subtitle'],
+    $news1['description'],
+    $news1['image'],
+    $news1['imageDescription'],
+    $news1['date']
+);
+
+echo $simpleNews->build(
+    $news1['title'],
+    $news1['subtitle'],
+    $news1['description'],
+    $news1['image'],
+    $news1['imageDescription'],
+    $news1['date']
+);
