@@ -45,7 +45,7 @@
             </div>
             <div class="col-12">
                 <ul class="actions">
-                    <li><a href="src/pages/servicos/coleta.php" class="button large">Entenda mais sobre nossos Planos de Coleta!</a></li>
+                    <li><a href="src/pages/coleta/index.php" class="button large">Entenda mais sobre nossos Planos de Coleta!</a></li>
                 </ul>
             </div>
         </div>

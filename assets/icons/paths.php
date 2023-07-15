@@ -28,4 +28,18 @@ $servicesPageIcons = [
 $productsPageIcons = [
     "produto_1" => "/images/produto1.jpeg",
 ];
+/* coletaIcons não funcionou na pages/coleta/ods.php*/
+$coletaIcons = [
+    "bio_claro" => "/images/coleta/claro.png",
+    "bio_escuro" => "/images/coleta/escuro.png",
+    "semanal" => "/images/coleta/coleta_semanal.png",
+    "quinzenal" => "/images/coleta/coleta_quinzenal.png",
+    "amigo" => "/images/coleta/coleta_amigo.png",
+    "juridico" => "/images/coleta/coleta_juridico.png",
 
+];
+
+$biofetilizanteIcons = [
+    "g_green" => "/images/biofertilizante/biofertilizante.png",
+
+];

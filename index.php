@@ -1,4 +1,6 @@
 <?php 
+
+
 $site_path = realpath(dirname(__FILE__));
 define('BASE_PATH', $site_path);
 

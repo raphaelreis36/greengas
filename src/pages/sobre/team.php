@@ -6,6 +6,7 @@
         <div class="row">
 
             <div class="col-3">
+               
                 <section class="box feature">
                     <a href="#" class="image featured"><img src="<?php echo $teamIcons['joao_victor'];?>" alt="" /></a>
                     <h3><a href="#">João Victor Ribeiro</a></h3>
